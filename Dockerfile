@@ -16,6 +16,8 @@ RUN echo @testing http://nl.alpinelinux.org/alpine/edge/testing >> /etc/apk/repo
     supervisor \
     curl \
     git \
+    php5-cli \
+    php5-pdo_sqlite \
     php5-fpm \
     php5-pdo \
     php5-pdo_mysql \
