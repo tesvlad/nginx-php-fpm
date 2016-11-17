@@ -16,7 +16,7 @@ if [ ! -z "$WEBROOT" ]; then
   webroot=$WEBROOT
   sed -i "s#root /var/www/html;#root ${webroot};#g" /etc/nginx/sites-available/default.conf
 else
-  webroot=/var/www/html
+  webroot=/var/www/html/web
 fi
 
 # Setup git variables
